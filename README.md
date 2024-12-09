@@ -76,7 +76,9 @@ Leia dois números inteiros `A` e `B`, e informe:
 
 ### **8️⃣ Questão 8**
 **Descrição:**  
-Leia um salário e atualize-o de acordo com a tabela de reajuste fornecida. Exiba o novo salário na tela.  
+Leia um salário e atualize-o de acordo com a tabela de reajuste fornecida. Exiba o novo salário na tela. 
+![image](https://github.com/user-attachments/assets/bd01a0d6-60e1-47c1-9c81-69dbb1658ad7)
+
 
 ---
 
