@@ -1,82 +1,32 @@
-C Programming Exercises
-1. Write a program in C that declares and initializes an array of integers with 5 elements
-The array should contain the values from 1 to 5. Display these values on the screen, one per line, in a "staircase" or diagonal format.
+## Exercises
 
-Example output:
+1. **Array Display in Staircase Pattern:**  
+   A program that initializes an integer array with 5 elements (values from 1 to 5) and displays them in a "staircase" or diagonal pattern, one per line.
 
-markdown
-Copiar
-Editar
-1  
- 2  
-  3  
-   4  
-    5  
-2. Create a program in C that reads an array of 10 non-negative integers
-The program should display:
+2. **Array Analysis (Max, Min, Sum, Average):**  
+   A program that reads an array of 10 non-negative integers, then displays the maximum, minimum, sum, and average of the values. It also prints the values in reverse order, separated by commas. The program ensures that only non-negative values are accepted.
 
-The largest value
-The smallest value
-The sum of all values
-The average of all values
-Finally, print the array in reverse order, with values separated by commas.
+3. **Matrix Input and Display:**  
+   A program that reads two integers representing the number of rows (`l`) and columns (`c`) of a matrix. It then creates a matrix of size `l x c`, reads the elements, and displays the matrix in tabular form.
 
-Note: The program must ensure that negative values are not accepted or read.
+4. **Matrix Multiplication (Double Precision):**  
+   Based on the previous matrix example, this program reads the dimensions `l` and `c` for two matrices: one of size `l x c` and the other of size `c x l`. It reads the elements for both matrices and computes their multiplication, displaying the result.
 
-3. Write a program in C that reads two integers: the number of rows (l) and columns (c)
-Using these values, create a l x c matrix of integers. Then:
+5. **Determinant of a Square Matrix:**  
+   A program that reads a positive integer `n`, representing the size of a square matrix `n x n`, and calculates the determinant of the matrix.
 
-Read the elements of this matrix, indicating before each input which row and column the value corresponds to.
-Display the matrix in a tabular format (with numbers in the same row separated by tabs).
-4. Based on Exercise 3, after reading two integers (l and c), create two matrices of doubles
-The first matrix should have dimensions l x c.
-The second matrix should have dimensions c x l.
-Read the values for both matrices, and calculate and display the result of their multiplication.
+6. **Prime Number Check in Matrix:**  
+   A program that reads a 5x5 matrix of integers and checks if all the elements are prime numbers, displaying the result.
 
-5. Create a program in C that reads a positive integer n
-This value represents the size of a square matrix (n x n). Then:
+7. **Palindrome Check:**  
+   A program that reads a string (up to 100 characters) and checks if it is a palindrome, i.e., if the sequence of characters is the same forwards and backwards (examples: "ovo", "arara", "rever", "ana", etc.).
 
-Create an integer matrix of size n x n.
-Read the values for the elements of this matrix.
-Calculate and print the determinant of the matrix.
-6. Create a program in C that reads a 5x5 integer matrix
-Verify and inform whether all the elements in the matrix are prime numbers.
+8. **Student Structure:**  
+   A program that defines a structure for a student, which includes their enrollment number, name, three test scores, and the average of these scores. It reads data into the structure, calculates the average, and displays the size of the structure in bytes.
 
-7. Create a program in C that reads a string of up to 100 characters
-Verify and inform if the string is a palindrome (i.e., it reads the same backward as forward).
+9. **Personal Data Structure (Cadastro):**  
+   A program that defines a new data type (`cadastro`) to represent personal data, including full name, phone number, and address. It prompts the user for a positive integer `N` (between 1 and 5) and creates an array of `N` `cadastro` elements. The program then reads data for `N` people and prints the information.
 
-Examples:
+10. **Coordinate Structure and Distance Calculation:**  
+    A program that defines a structure to represent the coordinates of a point (X, Y). It then reads the coordinates of a point and calculates and displays the distance from the point to the origin (0, 0).
 
-ovo, arara, rever, asa, osso, ana.
-8. Create a structure to represent a student in a course
-This structure should contain:
-
-An integer field for the student’s ID.
-A string of up to 40 characters for the student’s name.
-Three floating-point fields for the student’s grades.
-A field for the average of these grades.
-Write a program that:
-
-Reads the data to populate the structure (ID, name, and grades).
-Calculates and stores the average of the grades.
-Displays the size of the structure in bytes.
-9. Create a new data type (cadastro) based on a structure
-This structure should include:
-
-Full name (up to 50 characters).
-Phone number (11 digits, including area code).
-Address, with fields for: street, number, complement, neighborhood, city, state, and postal code.
-Write a program that:
-
-Asks the user for a positive integer N (greater than 0 and less than 6).
-Creates an array of size N using the cadastro structure.
-Reads the data for each entry in the array.
-Displays all the entered data.
-10. Create a structure to represent the coordinates of a point in a plane
-This structure should include:
-
-Fields for the X and Y positions.
-Write a program that:
-
-Declares and reads a point from the keyboard.
-Calculates and displays the distance from this point to the origin (0,0).
