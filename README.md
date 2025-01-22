@@ -10,7 +10,4 @@ This repository contains various C programming exercises developed as part of my
 - **Data Structures:** Using structures to store and manipulate complex data such as student records, matrix elements, and user profiles.
 - **Memory Management:** Allocating and freeing dynamic memory for structures and arrays.
 
-## Objective
-
-The objective of this study is to develop a solid understanding of core programming concepts and data structures in C. Each program in this repository helps reinforce problem-solving techniques while applying theoretical knowledge into practical coding exercises.
 
