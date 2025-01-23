@@ -9,48 +9,48 @@
 
 int main()
 {
-    float n1, n2, resultado;
-    char operador;
+    float n1, n2, result;
+    char operator;
 
-    printf("CALCULADORA BASICA ENTRE DOIS NUMEROS\n");
-    printf("Digite qual operacão voce quer realizar (+, -, *, /): ");
-    scanf(" %c", &operador);
-    printf("Digite o primeiro numero: ");
+    printf("SIMPLE CALCULATOR\n");
+    printf("Enter the operation you want to use (+, -, *, /): ");
+    scanf(" %c", &operator);
+    printf("Type the first number: ");
     scanf("%f", &n1);
-    printf("Digite o segundo numero: ");
+    printf("Type the second number: ");
     scanf("%f", &n2);
 
-    switch (operador)
+    switch (operator)
     {
     case '+':
-        resultado = n1 + n2;
-        printf("Calculo: %.0f %c %.0f = %.0f\n", n1, operador, n2, resultado);
+        result = n1 + n2;
+        printf("Result: %.0f %c %.0f = %.0f\n", n1, operator, n2, result);
         break;
 
     case '-':
-        resultado = n1 - n2;
-        printf("Calculo: %.0f %c %.0f = %.0f\n", n1, operador, n2, resultado);
+        result = n1 - n2;
+        printf("Result: %.0f %c %.0f = %.0f\n", n1, operator, n2, result);
         break;
 
     case '*':
-        resultado = n1 * n2;
-        printf("Calculo: %.0f %c %.0f = %.0f\n", n1, operador, n2, resultado);
+        result = n1 * n2;
+        printf("Result: %.0f %c %.0f = %.0f\n", n1, operator, n2, result);
         break;
 
     case '/':
         if (n2 != 0)
         {
-            resultado = n1 / n2;
-            printf("Calculo: %.0f %c %.0f = %.0f\n", n1, operador, n2, resultado);
+            result = n1 / n2;
+            printf("Result: %.0f %c %.0f = %.0f\n", n1, operator, n2, result);
         }
         else
         {
-            printf("Divisao por zero nao existe\n");
+            printf("Division by zero doens't exist\n");
         }
         break;
 
     default:
-        printf("Operador invalido! Tente novamente com (+, -, *, /).\n");
+        printf("Wrong operator! Try again with: (+, -, *, /).\n");
         break;
     }
     system("pause");

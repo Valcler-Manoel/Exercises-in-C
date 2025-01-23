@@ -1,8 +1,8 @@
 /*
  Válcler Manoel Vieira Camelo Maia
- Matrícula: 576040
- Data: 08/12/2024
- Aplicativo: Visual Studio Code
+ Student ID: 576040
+ Date: 12/08/2024
+ App: Visual Studio Code
 */
 
 #include <stdio.h>
@@ -13,23 +13,23 @@ int main()
     float n2;
     float media;
 
-    printf("CALCULAR A MEDIA DO ALUNO\n\n");
-    printf("Digite a sua primeira nota: ");
+    printf("CALCULATE STUDENT AVERAGE\n\n");
+    printf("Type your first grade: ");
     scanf("%f", &n1);
-    printf("Digite a sua segunda nota: ");
+    printf("Type your second grade: ");
     scanf("%f", &n2);
 
     media = (n1 + n2) / 2;
 
     if (media >= 6)
     {
-        printf("Parabéns, você passou!\n");
-        printf("Sua media foi: %.2f\n", media);
+        printf("Congratulations! You passed!\n");
+        printf("Your average was: %.2f\n", media);
     }
     else
     {
-        printf("Você reprovou.\n");
-        printf("Sua media foi: %.2f\n", media);
+        printf("You failed.\n");
+        printf("Your average was: %.2f\n", media);
     }
     system("pause");
     return 0;
