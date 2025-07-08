@@ -4,10 +4,5 @@
 
 This repository contains various C programming exercises developed as part of my studies. The main objective is to practice and explore core concepts in programming such as arrays, matrices, recursion, structures, and memory management. Each program represents a different problem or challenge, focused on building knowledge and problem-solving skills.
 
-### Key Topics Covered
-- **Arrays and Matrices:** Working with arrays, multidimensional arrays, and performing operations on them.
-- **Recursion:** Implementing recursive functions for tasks such as computing determinants or checking palindromes.
-- **Data Structures:** Using structures to store and manipulate complex data such as student records, matrix elements, and user profiles.
-- **Memory Management:** Allocating and freeing dynamic memory for structures and arrays.
 
 
